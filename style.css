@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box  ;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main{
+  background-color: #201b2c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left-side{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ /*  border: 1px solid white; */
+}
+
+.left-side>h1{
+  color:#77ffc0;
+  font-size: 2vw;
+}
+
+.left-side-image{
+  width: 35vw;
+}
+
+.right-side{
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid white; */
+}
+
+.card{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px ;
+  background-color: #2f2841;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+.card>h1{
+  color: #00ff88;
+  font-weight: 800;
+  margin: 15px;
+  letter-spacing: 2px;
+  font-size: 2vw;
+}
+
+.text-area{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+input{
+width: 100%;
+border: 0;
+border-radius: 10px;
+padding: 15px;
+font-size: 12pt;
+outline: none; /* Serve para não criar uma 'caixa' ao clicar no caixa de dexto onde você vai digitar os dados no site */
+background-color:#514869;
+color: #f0ffffde;
+box-shadow: 0px 10px 40px #00000056;
+margin-bottom: 15px;
+}
+
+::placeholder{
+  color:#f0ffff94;
+}
+
+.text-area>label{
+  color: #f0ffffe3;
+  margin-bottom: 10px;
+}
+
+button{
+  width: 100%;
+  padding: 16px 0px; 
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color:  #2b134b;
+  background-color:  #00ff88;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px  #00ff8052;
+}
